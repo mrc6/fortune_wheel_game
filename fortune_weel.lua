@@ -122,16 +122,15 @@ name = io.read()
 
 --spinning the weel
 math.randomseed(os.time())
-
-io.write("Spinning the weel - [")
-for i=1, math.random(10,15) do
-  io.write("*")
+turns = math.random(10,15)
+print("Spinning the weel...it will take some seconds")
+for i=1,turns  do
   oh_wait.seconds(1)
 end
-io.write("]\n")
 
 --getting the winner
 winner = people_on_the_game_array[ math.random( #people_on_the_game_array ) ]
+print("")
 print("The winner is: "..winner.."! Congratulations!!!")
 
 --saving table to json file
