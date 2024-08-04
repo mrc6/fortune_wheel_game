@@ -43,7 +43,7 @@ main_loop = {
     loop = function(available_people_array_in,excluded_people_array_in)
             print("Choose the operation you want to perform")
             print("1 - Include someone into excluded people list")
-            print("2 - Enclude someone into excluded people list")
+            print("2 - Exclude someone into excluded people list")
             print("0 - Exit")
             print("")
             local choose = io.read()
