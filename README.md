@@ -1,4 +1,8 @@
 # fortune_weel_game
+
+![image](https://github.com/user-attachments/assets/cfc63957-c781-407c-8183-efd6f0d84d21)
+
+
 This is the fortune weel game. You spin the weel and the name of the winner is selected
 
 What you need?
