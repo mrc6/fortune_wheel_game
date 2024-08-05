@@ -1,6 +1,6 @@
 # fortune_wheel_game
 
-![image](https://github.com/user-attachments/assets/cfc63957-c781-407c-8183-efd6f0d84d21)
+![image](https://github.com/user-attachments/assets/45e449aa-5684-4037-b188-98eaf0ee935b)
 
 
 This is the fortune wheel game. You spin the wheel and the name of the winner is selected
