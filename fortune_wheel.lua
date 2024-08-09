@@ -113,6 +113,14 @@ if #people_on_the_game_array == 0 then
     people_on_the_game_array = get_available_people.available_people(available_people_array,excluded_people_array,winners_people_array)
 end
 
+if arg[1] == '-l' then
+    print("listing available people to win")
+    for i=1, #people_on_the_game_array do
+        print(i.." - "..people_on_the_game_array[i])
+    end
+    os.exit()
+end
+
 print("Insert Coin ... or simple press ENTER")
 local name = io.read()
 
